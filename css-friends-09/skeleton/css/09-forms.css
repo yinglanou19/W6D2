@@ -1,0 +1,54 @@
+/* PHASE 9: Forms */
+.content-main .thumb{
+    float: left;
+}
+
+
+.form {
+    display: inline-block; 
+    width: 500px;
+    background-color:lightgray;
+    padding: 20px;
+}
+
+.form_title{
+    font-weight: 700;
+    padding: 0 0 5px 0;
+}
+
+#post_title {
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+}
+
+#post_body {
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    height: 100px;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#post_to_wall {
+    background-color: #0c0;
+    padding: 10px;
+    color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 3px 0 0 #070;
+    margin-right: 10px;
+}
+
+#cancel {
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+#cancel:active {
+    color: red;
+}

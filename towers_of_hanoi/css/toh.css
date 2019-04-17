@@ -1,0 +1,32 @@
+.toh {
+    display: flex;
+}
+
+*[id*='tower-'] {
+    background-color: green; 
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+*[id*='disk-'] {
+    background-color: gray; 
+    height: 20px;
+    margin: 10px;
+}
+
+#disk-0 {
+    width: 20px;
+}
+
+#disk-1 {
+    width: 40px;
+}
+
+#disk-2 {
+    width: 60px;
+}
+
+li {
+    list-style: none;
+}
