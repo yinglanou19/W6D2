@@ -51,6 +51,9 @@ class View {
             if (this.game.isValidMove(this.first.data("id"), $tower.data("id"))) {
                 this.game.move(this.first.data("id"), $tower.data("id"));
                 this.render();
+                if (this.game.isWon()) {
+                    alert("you won!");
+                }
             } else {
                 alert("invalid move");
             }
